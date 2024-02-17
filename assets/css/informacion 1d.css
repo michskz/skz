@@ -1,0 +1,45 @@
+*{
+    margin: 2%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/e9/7d/aa/e97daa2eaa31b71cb577dde8c425ecd5.jpg);
+    background-position: 90% ; /*esto determina que tan a la izquierda comenzará*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: #000000 solid;
+}
+
+h1{
+    color:rgb(233, 16, 27);
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+}
+
+#tarjeta{
+    box-shadow: 0px 0px  10px black;
+    background-color:blue,( 14, 14);
+    opacity: 90%;
+    width: 299px;
+   
+}
+
+img{
+    width: 250px;
+}

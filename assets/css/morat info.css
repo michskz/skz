@@ -1,0 +1,39 @@
+*{
+    margin: 2%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/ca/f9/fc/caf9fc0553323d1f4b43fb4b5285e07e.jpg);
+    background-position: 90% ; 
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(141, 57, 2);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: #000000 solid;
+}
+
+
+#tarjeta{
+    box-shadow: 0px 0px  10px black;
+    background-color:rgba(117, 211, 235, 0.904);
+    opacity: 90%;
+    width: 299px;
+   
+}
+
+img{
+    width: 250px;
+}
